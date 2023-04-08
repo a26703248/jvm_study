@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -9,6 +10,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/class_loader_02" />
+            <option value="$PROJECT_DIR$/class_loader_subsystem_02" />
+            <option value="$PROJECT_DIR$/jvm_classloader_03" />
+            <option value="$PROJECT_DIR$/jvm_study_start" />
+            <option value="$PROJECT_DIR$/jvm_study_start_01" />
+            <option value="$PROJECT_DIR$/memory_architecture_02" />
+            <option value="$PROJECT_DIR$/runtime_data_area" />
+            <option value="$PROJECT_DIR$/runtime_data_area_03" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -1,2 +1,10 @@
 rootProject.name = 'jvm_study'
+include 'jvm_study_start'
+include 'jvm_study_start_01'
+include 'memory_architecture_02'
+include 'jvm_classloader_03'
+include 'class_loader_02'
+include 'runtime_data_area'
+include 'runtime_data_area_03'
+include 'class_loader_subsystem_02'
 
