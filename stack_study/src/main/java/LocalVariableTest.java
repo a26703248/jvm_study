@@ -1,4 +1,3 @@
-import javax.xml.crypto.Data;
 import java.util.Date;
 
 /**
@@ -53,6 +52,7 @@ public class LocalVariableTest {
             int b = 0;
             b = a+1;
         }
+        // 變數c的slot是使用變數b的slot空間,因變數b的作用範圍消失,是可重複將以取得變數b的slot空間作使用
         int c = a + 1;
     }
 }
