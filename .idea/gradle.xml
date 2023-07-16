@@ -18,6 +18,7 @@
             <option value="$PROJECT_DIR$/memory_architecture_02" />
             <option value="$PROJECT_DIR$/runtime_data_area" />
             <option value="$PROJECT_DIR$/runtime_data_area_03" />
+            <option value="$PROJECT_DIR$/stack_study" />
           </set>
         </option>
       </GradleProjectSettings>
