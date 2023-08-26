@@ -1,4 +1,4 @@
-
+[Oracle JVM Specification 1.8](https://docs.oracle.com/javase/specs/jvms/se8/html/)
 ## 虛擬機棧區域（JVM Stack）
 定義:棧可透過數組或鏈表實作,但不可通過索引訪問元素,只能透過出棧(push)和入棧(pop)操作
 ### 記憶體相關錯誤
@@ -99,3 +99,15 @@ void、介面方法、建構子、類別方法都使用 return
 
 ### 附加訊息
 栈偵中允許攜帶一些與Java虛擬機實作相關的附加訊息，例:對效能優化訊息調試得訊息
+
+### 總結問題
+1. 舉例栈溢出情況(StackOverflowError)
+   * 通過調整 -Xss(固定大小) 設置栈的大小但在動態調整大小時若再無記憶體資源則拋出 OOM 錯誤
+2. 調整栈大小，就能保證不出現栈溢出問題嗎?
+   * 可以緩解但不能保證完全解決
+3. Stack 分配越大越好嗎?
+   * Stack 分配越大不代表越好，因為會壓縮到其他執行緒使用記憶體空間
+4. 垃圾回收機制是否會涉及到虛擬機栈?
+   * 不會，因為栈(本地方法栈及虛擬機栈)無GC機制
+5. 方法中定義的區域變數是否線程安全?
+   * 需看情況，[範例StringBuilderTest](./src/main/java/StringBuilderTest.java)
