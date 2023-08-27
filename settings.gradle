@@ -8,4 +8,5 @@ include 'runtime_data_area'
 include 'runtime_data_area_03'
 include 'class_loader_subsystem_02'
 include 'stack_study'
+include 'native_method_interface'
 
