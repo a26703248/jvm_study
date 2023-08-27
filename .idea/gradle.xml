@@ -19,6 +19,7 @@
             <option value="$PROJECT_DIR$/runtime_data_area" />
             <option value="$PROJECT_DIR$/runtime_data_area_03" />
             <option value="$PROJECT_DIR$/stack_study" />
+            <option value="$PROJECT_DIR$/study_heap" />
           </set>
         </option>
       </GradleProjectSettings>
